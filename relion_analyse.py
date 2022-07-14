@@ -511,9 +511,12 @@ def plot_pipeline(reloadgraphbutton):
     cytoelements = []
     for i in pipe_nodes:
         cytoelements.append({'data': {'id':i[-7:-1], 'label':i}, 'classes':i[:-8]})
-          
+
     for i, row in pipe_input_edges.iterrows():
-        cytoelements.append({'data': {'source':re.search(r'job\d\d\d', row['rlnPipeLineEdgeFromNode'])[0], 'target':row['rlnPipeLineEdgeProcess'][-7:-1]}})    
+        try: cytoelements.append({'data': {'source':re.search(r'job\d\d\d', row['rlnPipeLineEdgeFromNode'])[0], 'target':row['rlnPipeLineEdgeProcess'][-7:-1]}})
+        except:
+            print('there\'s a problem with node: '+row['rlnPipeLineEdgeFromNode'])
+            continue
 
     return ([cytoelements])
 
