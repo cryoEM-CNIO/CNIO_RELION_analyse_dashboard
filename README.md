@@ -1,6 +1,6 @@
 # CNIO_RELION_analyse_dashboard - README
 
-This script launches a webapp to analyse in detail each RELION job in a given project. The webapp is organized in 5 different tabs:
+This script launches a webapp to analyse in detail each RELION job in a given project. The webapp is organized in 6 different tabs:
 
 * **Relion pipeline**: an overview of all the nodes in the project and their connectivity.
 <img width="1438" alt="Screenshot 2022-07-14 at 20 15 37" src="https://user-images.githubusercontent.com/60991432/179053765-b0be299c-430d-4b7a-ac20-a4ececf9f49f.png">
