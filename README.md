@@ -22,7 +22,7 @@ This script launches a webapp to analyse in detail each RELION job in a given pr
 
 
 Note that all plots are interactive. The ones in in the **Analyse particles** and **Analyse micrographs** tabs can also be used to select a subset of micrographs/particles graphically and export them as a .star file that can then be imported into RELION:
-https://user-images.githubusercontent.com/60991432/179057807-e8910017-0c4a-45ca-bd60-c0c97046a417.mov
+![179057807-e8910017-0c4a-45ca-bd60-c0c97046a417](https://user-images.githubusercontent.com/60991432/179060588-c2b8a6f6-4927-4edc-88bd-cd8d9036bbf8.gif)
 
 
 ## Installation
